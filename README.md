@@ -18,9 +18,10 @@ Contributions are welcome! This is intended to be a collaborative effort, and
 will hopefully become a rich resource of code snippets.
 
 To contribute, create three files in the `examples/` directory:
-* `name.md` - where the first line of the file is the title. Provide any
-  additional reference info, links, instruction, etc. here. To maintain
-  consistency, please follow the format used by other examples as so:
+* `name.md` - where the first line of the file is the title. Provide a link to
+  the packages on [PyPI](https://pypi.org/) and reference info, links,
+  instruction, etc. here. To maintain consistency, please follow the format used
+  by other examples as so:
   ```markdown
   Package Name
   ============
@@ -47,8 +48,8 @@ examples as digestible as possible:
   not contain errors.
 
 
-Building
---------
+Environment Setup
+-----------------
 
 First create a virtual environment:
 
@@ -76,7 +77,11 @@ Install the requirements:
 (purepython)$ pip install -r requirements.txt
 ```
 
-Now, build the site:
+
+Building
+--------
+
+To build the static index page:
 
 ```
 (purepython)$ python render.py

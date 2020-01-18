@@ -30,11 +30,11 @@
     </ul>
     <div class="toc">
       <h4>Table of Contents</h4>
-      <div class="toc-entries">
+      <ul class="toc-entries">
         {% for example in examples %}
-        <a href="#{{example.slug}}">{{example.title}}</a>
+        <li><a href="#{{example.slug}}">{{example.title}}</a></li>
         {% endfor %}
-      </div>
+      </ul>
       <p class="help">
         Missing an example?
         <a href="https://github.com/vsalvino/purepython">Contribute on GitHub</a>!
